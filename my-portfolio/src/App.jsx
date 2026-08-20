@@ -14,7 +14,8 @@ function App() {
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#education">Education</a>
-          <a href="#contact">Contact</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>  
         </div>
       </nav>
 
@@ -159,6 +160,35 @@ function App() {
   databases, and computer applications. I am building my technical skills
   through practical projects and continuous learning.
 </p>          </p>
+        </div>
+      </section>
+            {/* Resume */}
+      <section id="resume" className="section">
+        <p className="section-title">MY RESUME</p>
+        <h2>Resume</h2>
+
+        <p>
+          View my resume to learn more about my education, skills,
+          projects, and experience.
+        </p>
+
+        <div className="hero-buttons">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            View Resume
+          </a>
+
+          <a
+            href="/resume.pdf"
+            download
+            className="btn secondary"
+          >
+            Download Resume
+          </a>
         </div>
       </section>
 
