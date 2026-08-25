@@ -83,8 +83,8 @@ function App() {
           <div className="skill">JavaScript</div>
           <div className="skill">React</div>
           <div className="skill">Node.js</div>
-          <div className="skill">Java Basics</div>
-          <div className="skill">SQL Basics</div>
+          <div className="skill">Java</div>
+          <div className="skill">SQL</div>
           <div className="skill">Git &amp; GitHub</div>
         </div>
       </section>
@@ -130,29 +130,68 @@ function App() {
       </section>
 
       {/* Education */}
-      <section id="education" className="section">
-        <p className="section-title">EDUCATION</p>
-        <h2>My Education</h2>
+<section id="education" className="section">
+  <p className="section-title">EDUCATION</p>
+  <h2>My Education</h2>
 
-        <div className="education-card">
-          <h3>Bachelor of Computer Applications (BCA)</h3>
+  {/* BCA */}
+  <div className="education-card">
+    <h3>Bachelor of Computer Applications (BCA)</h3>
 
-          <p className="college-name">
-            B.M.S College for Women
-          </p>
+    <p className="college-name">
+      B.M.S College for Women, Bengaluru
+    </p>
 
-          <p className="education-year">
-            Expected Graduation: 2027
-          </p>
+    <p className="education-year">
+      Expected Graduation: 2027
+    </p>
 
-          <p>
-            Currently pursuing BCA with a focus on programming, web
-            development, databases, and computer applications. I am building
-            my technical skills through practical projects and continuous
-            learning.
-          </p>
-        </div>
-      </section>
+    <p>
+      Currently pursuing BCA with a focus on programming, web development,
+      databases, and computer applications. I am building my technical
+      skills through practical projects and continuous learning.
+    </p>
+  </div>
+
+  {/* PUC */}
+  <div className="education-card">
+    <h3>Pre-University Course (PUC)</h3>
+
+    <p className="college-name">
+      BMS PU College for Women, Bengaluru
+    </p>
+
+    <p className="education-year">
+      Completed: 2024
+    </p>
+
+    <p>
+      <p>
+  Completed my Pre-University education and developed a strong foundation
+  in academics and general knowledge.
+</p>
+    </p>
+  </div>
+
+  {/* SSLC */}
+  <div className="education-card">
+    <h3>SSLC (10th Grade)</h3>
+
+    <p className="college-name">
+      Excellent English High School, Bengaluru
+    </p>
+
+    <p className="education-year">
+      Completed: 2022
+    </p>
+
+    <p>
+      <p>
+  Completed my secondary education with a strong foundation in academics.
+</p>
+    </p>
+  </div>
+</section>
 
       {/* Resume */}
       <section id="resume" className="section">
