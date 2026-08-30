@@ -204,23 +204,23 @@ function App() {
         </p>
 
         <div className="hero-buttons">
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn"
-          >
-            View Resume
-          </a>
+  <a
+    className="btn"
+    href="/Resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View Resume
+  </a>
 
-          <a
-            href="/resume.pdf"
-            download
-            className="btn secondary"
-          >
-            Download Resume
-          </a>
-        </div>
+  <a
+    className="btn secondary"
+    href="/Resume.pdf"
+    download
+  >
+    Download Resume
+  </a>
+</div>
       </section>
 
       {/* Contact */}
