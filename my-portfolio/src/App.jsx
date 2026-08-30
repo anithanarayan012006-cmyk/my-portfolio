@@ -206,7 +206,7 @@ function App() {
         <div className="hero-buttons">
   <a
     className="btn"
-    href="/Resume.pdf"
+    href="/resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -215,7 +215,7 @@ function App() {
 
   <a
     className="btn secondary"
-    href="/Resume.pdf"
+    href="/resume.pdf"
     download
   >
     Download Resume
