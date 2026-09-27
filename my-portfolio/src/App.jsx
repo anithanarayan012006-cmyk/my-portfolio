@@ -26,13 +26,15 @@ function App() {
 
           <h1>Anitha N</h1>
 
-          <h2>BCA Student &amp; Aspiring Backend Developer</h2>
+          <h2>BCA Student &amp; Aspiring Data Analyst</h2>
 
           <p>
-            I am a BCA student and aspiring backend developer with an interest
-            in programming, databases, and web development. I enjoy building
-            practical projects, learning new technologies, and improving my
-            problem-solving skills.
+            I am a BCA student and aspiring Data Analyst with an interest in data analysis, 
+            databases, and problem-solving. I enjoy working with data to identify patterns, 
+            generate insights, and support data-driven decision-making. I am passionate about
+            learning new technologies, developing my analytical skills, and applying them through
+            practical projects.
+
           </p>
 
           <div className="hero-buttons">
@@ -59,16 +61,19 @@ function App() {
         <h2>Who I Am</h2>
 
         <p className="about-text">
-          I am currently pursuing my Bachelor of Computer Applications (BCA)
-          at B.M.S College for Women. I am developing my skills in programming,
-          databases, and web development, with a growing interest in backend
-          development.
+          I am currently pursuing my Bachelor of Computer Applications (BCA) 
+          at B.M.S College for Women. I am developing my skills in programming, 
+          databases, and data analysis, with a growing interest in data analytics 
+          and data-driven decision-making.
+
         </p>
 
         <p className="about-text">
-          I enjoy working on practical projects that help me strengthen my
-          technical and problem-solving skills. I am always interested in
-          learning new technologies and gaining practical experience.
+          I enjoy working on practical projects that help me strengthen 
+          my analytical and problem-solving skills. I am always interested 
+          in learning new data analysis tools and technologies and gaining practical
+          experience in working with data.
+
         </p>
       </section>
 
@@ -76,17 +81,16 @@ function App() {
       <section id="skills" className="section">
         <p className="section-title">MY SKILLS</p>
         <h2>Skills &amp; Technologies</h2>
-
-        <div className="skills-container">
-          <div className="skill">HTML</div>
-          <div className="skill">CSS</div>
-          <div className="skill">JavaScript</div>
-          <div className="skill">React</div>
-          <div className="skill">Node.js</div>
-          <div className="skill">Java</div>
-          <div className="skill">SQL</div>
-          <div className="skill">Git &amp; GitHub</div>
-        </div>
+<div className="skills-container">
+  <div className="skill">Python</div>
+  <div className="skill">SQL</div>
+  <div className="skill">Excel</div>
+  <div className="skill">Data Analysis</div>
+  <div className="skill">Data Visualization</div>
+  <div className="skill">JavaScript</div>
+  <div className="skill">HTML & CSS</div>
+  <div className="skill">GitHub</div>
+</div>
       </section>
 
       {/* Projects */}
@@ -119,9 +123,11 @@ function App() {
           <div className="project-card">
             <h3>Personal Portfolio Website</h3>
             <p>
-              A responsive portfolio website created to showcase my skills,
-              education, projects, and contact information. This project
-              helped me improve my frontend development and web design skills.
+              A responsive portfolio website created to showcase my skills, 
+              education, projects, and contact information. This project helped
+              me improve my technical, problem-solving, and web development skills
+              while gaining practical experience in presenting projects and information effectively.
+
             </p>
             <span>React • HTML • CSS • JavaScript</span>
           </div>
@@ -147,9 +153,11 @@ function App() {
     </p>
 
     <p>
-      Currently pursuing BCA with a focus on programming, web development,
-      databases, and computer applications. I am building my technical
-      skills through practical projects and continuous learning.
+      Currently pursuing BCA with an interest in data analysis, 
+      databases, programming, and computer applications. I am developing 
+      my analytical and technical skills through practical projects, data-driven
+      problem-solving, and continuous learning.
+
     </p>
   </div>
 
@@ -229,8 +237,11 @@ function App() {
         <h2>Let's Connect</h2>
 
         <p>
-          I am currently looking for internship opportunities where I can
-          learn, apply my technical skills, and gain practical experience.
+          I am currently looking for Data Analyst internship opportunities
+          where I can apply my analytical and technical skills, work with 
+          real-world data, and gain practical experience while continuing 
+          to learn and grow professionally.
+
         </p>
 
         <div className="contact-links">
