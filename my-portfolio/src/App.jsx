@@ -101,37 +101,41 @@ function App() {
         <div className="projects-container">
 
           <div className="project-card">
-            <h3>Hangman Game</h3>
-            <p>
-              A simple word-guessing game developed using Python. This project
-              helped me strengthen my programming fundamentals, logical
-              thinking, and problem-solving skills.
+            <h3>Customer Shopping Behavior Analysis</h3>
+            <p>Analyzed 3,900 customer shopping records
+              using SQL and Python, performed data cleaning and
+              exploratory analysis, and developed an interactive
+              Power BI dashboard to identify sales, customer,
+              product, seasonal, payment, subscription, and discount trends.
+              
             </p>
-            <span>Python</span>
+            <span>SQL, Python, Power BI</span>
           </div>
 
           <div className="project-card">
-            <h3>Job Application Tracker</h3>
+            <h3>Student Performance Analysis </h3>
             <p>
-              A web-based application designed to help users organize and
-              track their job applications, application status, and related
-              information in one place.
-            </p>
-            <span>HTML • CSS • JavaScript</span>
-          </div>
-
-          <div className="project-card">
-            <h3>Personal Portfolio Website</h3>
-            <p>
-              A responsive portfolio website created to showcase my skills, 
-              education, projects, and contact information. This project helped
-              me improve my technical, problem-solving, and web development skills
-              while gaining practical experience in presenting projects and information effectively.
+              Analyzed student marks and attendance data using
+              SQL and Power BI. Created queries to identify top 
+              performers, subject-wise performance, attendance patterns,
+              and average scores, and developed an interactive Power BI 
+              dashboard to visualize key insights.
 
             </p>
-            <span>React • HTML • CSS • JavaScript</span>
+            <span>SQL & Power BI</span>
           </div>
 
+<div className="project-card">
+            <h3>Job Application Tracker </h3>
+            <p>
+              Developed a backend-based Job Application 
+              Tracker to manage and organize job applications. 
+              Implemented features for adding, viewing, updating,
+              and deleting application details, with MongoDB used 
+              for storing and managing application data.
+            </p>
+            <span>Node.js, MongoDB, JavaScript</span>
+          </div>
         </div>
       </section>
 
